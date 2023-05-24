@@ -5,7 +5,7 @@ using Graphs, MetaGraphs, DataFrames
     
 pths = [
     "graph.jl", "sortedges!.jl", "symmetrize!.jl",
-    "egoreductions.jl", "egoreductions.jl", "graph_utilities.jl"
+    "egoreductions.jl", "graph_utilities.jl"
 ];
 
 for e in pths; include(e) end
